@@ -85,4 +85,4 @@ Author
 
 Created by **Jaume Fontal** ([@jaumefontal](http://www.twitter.com/jaumefontal)).
 
-If you need more info, you can find me on twitter!
+If you need more info you can find me on Twitter!
