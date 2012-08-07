@@ -6,7 +6,7 @@ SASS build system for Sublime Text 2
 Description
 -----------
 
-Provides a Build system for SASS files.
+Provides two Build system for SASS files (with and without compression)
 
 
 Prerequisites
@@ -48,7 +48,7 @@ Follow the instructions on the website.
 2. Open the command panel: `Control+Shift+P` (Linux/Windows) or `Command+Shift+P` (OS X) and select '**Package Control: Install Package**'.
 3. When the packages list appears type '**SASS**' and you'll find the **SASS Build System**. Select to install it.
 
-4. Now you can compile your SASS files! Launch your build with `Control+B` (Linux/Windows) or `Command+B` (OS X)-
+4. Now you can compile your SASS files! Launch your build with `Control+B` (Linux/Windows) or `Command+B` (OS X).
 
 5. Enjoy your coding =)
 
@@ -71,6 +71,16 @@ You can find your 'Packages' inside the following directories:
 **Without Git**
 
 Download the latest source zip from [Github](https://github.com/jaumefontal/SASS-Build-SublimeText2) and extract it into a new folder named `SASS-Build` in your Sublime Text "Packages" folder.
+
+
+Using the build
+---------------
+
+After installing the package you will find two new options in `Tools > Build system` of your  Sublime menu: **SASS** and **SASS - Compressed**.
+
+By default your `.scss` and `.sass` files will be builded using the **SASS build** (not compressed).
+
+And remember, always you can launch the selected build with `Control+B` (Linux/Windows) or `Command+B` (OS X).
 
 
 Recommendations
