@@ -100,4 +100,4 @@ If you need more info you can find me on Twitter!
 Acknowledgements
 ----------------
 
-Thanks for the colaboration of [@hdennison](http://www.twitter.com/hdennison) with the testing in MacOS.
+Thanks to the collaboration of [@hdennison](http://www.twitter.com/hdennison) with the testing in MacOS.
