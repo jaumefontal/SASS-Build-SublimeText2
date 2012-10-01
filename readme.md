@@ -38,7 +38,7 @@ Step by step:
 
 Installing
 ----------
-**With the Package Control plugin**
+**OPTION 1 - With the Package Control plugin (recommended)**
 
 The easiest way to install this package is through Package Control.
 
@@ -53,7 +53,7 @@ Follow the instructions on the website.
 5. Enjoy your coding =)
 
 
-**With Git**
+**OPTION 2 - With Git**
 
 Clone the repository in your Sublime Text "Packages" directory:
 
@@ -68,7 +68,7 @@ You can find your 'Packages' inside the following directories:
 * Linux:
     `~/.Sublime Text 2/Packages/`
 
-**Without Git**
+**OPTION 3 - Without Git**
 
 Download the latest source zip from [Github](https://github.com/jaumefontal/SASS-Build-SublimeText2) and extract it into a new folder named `SASS-Build` in your Sublime Text "Packages" folder.
 
@@ -96,3 +96,8 @@ Author
 Created by **Jaume Fontal** ([@jaumefontal](http://www.twitter.com/jaumefontal)).
 
 If you need more info you can find me on Twitter!
+
+Acknowledgements
+----------------
+
+Thanks for the colaboration of [@hdennison](http://www.twitter.com/hdennison) with the testing in MacOS.
