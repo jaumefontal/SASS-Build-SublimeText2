@@ -6,7 +6,7 @@ SASS build system for Sublime Text 2
 Description
 -----------
 
-Provides two Build system for SASS files (with and without compression)
+Provides two build systems for SASS files (with and without compression).
 
 
 Prerequisites
@@ -34,6 +34,12 @@ Step by step:
 	Open your console ('*Command promp with Ruby*' on Windows) and execute the following command:
 
 	`gem install sass`
+	
+	**NOTE:** On OS X 10.8 when using `rbenv` to manage your versions of Ruby, your PATH that Sublime Text accesses will not see the `sass` executable. Edit or create the file `/etc/launchd.conf` and add the following:
+	
+	`setenv /usr/bin/:/bin:/usr/sbin:/sbin:/Users/YOUR USERNAME/.rbenv/shims`
+	
+	Reboot your machine for these changes to take effect.
 
 
 Installing
@@ -90,7 +96,7 @@ Recommendations
 * Also, I recomend the plugin [SublimeOnSaveBuild](https://github.com/alexnj/SublimeOnSaveBuild). Just save your SASS files and transform them into CSS!
 * If you want to change the default folder of your generated CSS files into another one, you can edit the build:
 
-  **Exemple:** Save your CSS files into a `css` folder:
+  **Example:** Save your CSS files into a `css` folder:
   `"cmd": ["sass", "--update", "$file:${file_path}/../css/${file_base_name}.css"],`
 
 
