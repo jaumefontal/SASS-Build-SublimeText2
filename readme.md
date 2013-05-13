@@ -88,7 +88,7 @@ Recommendations
 
 * Is recommended to use this build with one of the next plugins: [SASS plugin](https://github.com/nathos/sass-textmate-bundle) or [SCSS.tmbundle](https://github.com/kuroir/SCSS.tmbundle).
 * Also, I recomend the plugin [SublimeOnSaveBuild](https://github.com/alexnj/SublimeOnSaveBuild). Just save your SASS files and transform them into CSS!
-* If you want to change the default folder of your generated CSS files into another one, you can edit the build:
+* If you want to change the default folder of your generated CSS files into another one, you can edit the build (in "Packages/SASS\ Build/SASS.sublime-build"):
 
   **Exemple:** Save your CSS files into a `css` folder:
   `"cmd": ["sass", "--update", "$file:${file_path}/../css/${file_base_name}.css"],`
