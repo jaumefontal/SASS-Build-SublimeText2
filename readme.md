@@ -31,7 +31,7 @@ Step by step:
 
 2. Installing SASS
 
-	Open your console ('*Command promp with Ruby*' on Windows) and execute the following command:
+	Open your console ('*Command prompt with Ruby*' on Windows) and execute the following command:
 
 	`gem install sass`
 
@@ -78,7 +78,7 @@ Using the build
 
 After installing the package you will find two new options in `Tools > Build system` of your  Sublime menu: **SASS** and **SASS - Compressed**.
 
-By default your `.scss` and `.sass` files will be builded using the **SASS build** (not compressed).
+By default your `.scss` and `.sass` files will be built using the **SASS build** (not compressed).
 
 And remember, always you can launch the selected build with `Control+B` (Linux/Windows) or `Command+B` (OS X).
 
@@ -87,10 +87,10 @@ Recommendations
 ---------------
 
 * Is recommended to use this build with one of the next plugins: [SASS plugin](https://github.com/nathos/sass-textmate-bundle) or [SCSS.tmbundle](https://github.com/kuroir/SCSS.tmbundle).
-* Also, I recomend the plugin [SublimeOnSaveBuild](https://github.com/alexnj/SublimeOnSaveBuild). Just save your SASS files and transform them into CSS!
+* Also, I recommend the plugin [SublimeOnSaveBuild](https://github.com/alexnj/SublimeOnSaveBuild). Just save your SASS files and transform them into CSS!
 * If you want to change the default folder of your generated CSS files into another one, you can edit the build:
 
-  **Exemple:** Save your CSS files into a `css` folder:
+  **Example:** Save your CSS files into a `css` folder:
   `"cmd": ["sass", "--update", "$file:${file_path}/../css/${file_base_name}.css"],`
 
 
@@ -101,7 +101,7 @@ Created by **Jaume Fontal** ([@jaumefontal](http://www.twitter.com/jaumefontal))
 
 If you need more info you can find me on Twitter!
 
-Acknowledgements
+Acknowledgments
 ----------------
 
 Thanks to the collaboration of [@hdennison](http://www.twitter.com/hdennison) with the testing in MacOS.
