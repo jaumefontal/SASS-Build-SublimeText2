@@ -90,7 +90,7 @@ Recommendations
 * Also, I recomend the plugin [SublimeOnSaveBuild](https://github.com/alexnj/SublimeOnSaveBuild). Just save your SASS files and transform them into CSS!
 * If you want to change the default folder of your generated CSS files into another one, you can edit the build:
 
-  **Exemple:** Save your CSS files into a `css` folder:
+  **Example:** Save your CSS files into a `css` folder:
   `"cmd": ["sass", "--update", "$file:${file_path}/../css/${file_base_name}.css"],`
 
 
