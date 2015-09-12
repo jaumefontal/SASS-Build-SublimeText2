@@ -110,9 +110,10 @@ If you want to change the default folder of where your CSS is generated, you can
   If you are using partials and running into issues, David Kiv [suggests](http://blog.hovercraft.ie/post/61592756918/update-sass-build-plug-in-for-sublime-text-2-to) putting this code in the `.sublime-build` files:
 
   **Windows** 
-  	* `"cmd": ["sass", "--update", "${project_path}\\scss\\styles.scss:${project_path}\\css\\styles.css", "--stop-on-error", "--no-cache"],`
+  		* `"cmd": ["sass", "--update", "${project_path}\\scss\\styles.scss:${project_path}\\css\\styles.css", "--stop-on-error", "--no-cache"],`
+  		
   **Mac** 
-    * `"cmd": ["sass", "--update", "${project_path}/scss/styles.scss:${project_path}/css/styles.css", "--stop-on-error", "--no-cache"],`
+	 * `"cmd": ["sass", "--update", "${project_path}/scss/styles.scss:${project_path}/css/styles.css", "--stop-on-error", "--no-cache"],`
 
 
 
