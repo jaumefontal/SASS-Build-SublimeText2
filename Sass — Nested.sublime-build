@@ -1,0 +1,17 @@
+{
+
+	"cmd": ["sass", "--update", "$file:${file_path}/${file_base_name}.css", "--stop-on-error", "--no-cache"],
+	"selector": "source.sass, source.scss",
+	"line_regex": "Line ([0-9]+):",
+
+	"osx":
+	{
+		"path": "/usr/local/bin:$PATH"
+	},
+
+	"windows":
+	{
+		"shell": "true"
+	}
+
+}
